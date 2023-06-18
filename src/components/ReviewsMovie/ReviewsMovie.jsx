@@ -62,4 +62,3 @@ function transformContent(str) {
 }
 
 export default ReviewsMovie;
-//
