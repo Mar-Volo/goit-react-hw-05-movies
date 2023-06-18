@@ -47,7 +47,7 @@ const Movies = () => {
               </ErrorMessage>
             </label>
             <BtnSearch type="submit">
-              <BsSearch size={40} fill={'orange'} />
+              <BsSearch size={40} fill={'lightBlue'} />
             </BtnSearch>
           </StyledForm>
         </Formik>

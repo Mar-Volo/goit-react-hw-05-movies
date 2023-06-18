@@ -17,7 +17,7 @@ export const StyledInput = styled(Field)`
   width: 50%;
   height: 34px;
   border: none;
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid lightblue;
   padding-left: 20px;
   font-size: 18px;
   outline: none;
@@ -37,5 +37,5 @@ export const Errormsg = styled.span`
   left: 0;
   font-size: 20px;
   font-style: italic;
-  color: red;
+  color: darkred;
 `;

@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 export const StyledLink = styled(NavLink)`
+width: 100px;
+font-size: 20px;
   color: black;
-  display: block;
-    padding: 5px;
-   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
   &.active {
-    background-color: orange;
-     border-radius: 9px;
+    background-color: lightblue;
+     border-radius: 3px;
      color: white;
   }
 `;
@@ -33,5 +36,5 @@ export const Header = styled.header`
   padding: 20px 0;
   margin-bottom: 20px;
 
-  box-shadow: 11px 9px 17px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 8px 5px -9px rgba(0, 0, 0, 0.75);
 `;

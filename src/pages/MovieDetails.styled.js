@@ -5,7 +5,7 @@ export const StyledLink = styled(NavLink)`
   color: black;
 
   &.active {
-    color: orange;
+    color: lightblue;
   }
 `;
 export const WrapperContent = styled.div`
@@ -33,12 +33,11 @@ export const BtnGoBack = styled.button`
   border: none;
   padding: 12px;
   width: 116px;
-  border-radius: 4px;
+  border-radius: 3px;
   margin-top: 13px;
-  background-color: orange;
+  background-color: lightblue;
   color: white;
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
   margin-left: 20px;
 `;
