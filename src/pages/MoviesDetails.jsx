@@ -12,7 +12,7 @@ import {
   StyledLink,
   Container,
   DivMain,
-} from './MovieDetalis.styled';
+} from './MovieDetails.styled';
 
 const MoviesDetalis = () => {
   const { movieId } = useParams();
@@ -23,7 +23,6 @@ const MoviesDetalis = () => {
 
   useEffect(() => {
     onRequest(movieId);
-    // eslint-disable-next-line
   }, []);
 
   const onRequest = async id => {

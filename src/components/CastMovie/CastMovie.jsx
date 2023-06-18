@@ -8,7 +8,7 @@ import {
   ImgCast,
 } from './CastMovie.styled';
 
-import noImg from '../../img/no_image.jpg';
+import noImg from '../../img/no_image_available.jpg';
 
 const CastMovie = () => {
   const { movieId } = useParams();
